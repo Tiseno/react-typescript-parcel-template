@@ -1,21 +1,20 @@
 {
-  "name": "my-cool-spa",
-  "version": "1.0.0",
-  "main": "index.html",
+  "name": "react-typescript-parcel-template",
+  "version": "1.1.0",
   "license": "MIT",
   "scripts": {
-    "start": "parcel src/index.html",
+    "serve": "parcel serve src/index.html",
+    "watch": "parcel watch src/index.html",
     "build": "parcel build src/index.html"
   },
   "dependencies": {
-    "@types/react": "^16",
-    "@types/react-dom": "^16",
-    "react": "^16",
-    "react-dom": "^16"
+    "@types/react": "^17",
+    "@types/react-dom": "^17",
+    "react": "^17",
+    "react-dom": "^17"
   },
   "devDependencies": {
-    "parcel-bundler": "^1",
-    "parcel-plugin-bundle-visualiser": "^1",
-    "typescript": "^3"
+    "parcel": "^2",
+    "typescript": "^4"
   }
 }
